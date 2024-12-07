@@ -54,7 +54,7 @@ export default function SnapScreen() {
         type: "image/jpeg",
       });
 
-      fetch("http://10.9.1.137:3000/upload", {
+      fetch("https://faceup-backend-seven.vercel.app/upload", {
         method: "POST",
         body: formData,
       })
